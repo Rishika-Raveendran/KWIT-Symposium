@@ -12,7 +12,7 @@
   padding-bottom: 10vh;
 }
 .team h1 {
-  background-image: linear-gradient(120deg, #d4fc79 0%, #86e993 100%);
+	background-image: linear-gradient(-20deg, #00cdac 0%, #8ddad5 100%);
   font-weight: bold;
   font-size: 4rem;
   background-clip: text;
