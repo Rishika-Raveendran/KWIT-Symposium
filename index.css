@@ -125,7 +125,11 @@
       }
   
       .coming_sn h3 {
-          font-size: 7.5vw;
+          font-size: 5vw;
+          margin: 10%;
+          width: 80vw;
+          padding-top: 2vh;
+          padding-bottom: 2vh;
       }
   
       .coming_sn h4 {
