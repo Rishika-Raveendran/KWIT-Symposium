@@ -125,7 +125,9 @@
       }
   
       .coming_sn h3 {
-          font-size: 7.5vw;
+        font-size: 7vw;
+        width: 80vw;
+        margin-left: 9vw
       }
   
       .coming_sn h4 {
