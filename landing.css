@@ -100,11 +100,15 @@ header{
 
 @media(max-width:991px){
     header{
-        left: -120%;
+        left: 0;
+       
     }
-    /*#menu{
-        display: block;
-    }*/
+   
+    .header-c h1, .header-c h2{
+       
+        font-size: 3rem;
+    }
+    
 
     header.toggle{
         left: 0;
@@ -113,6 +117,7 @@ header{
         padding: 0;
     }
     .logo {
+        margin-top: 15vh;
         width: 50%;
     }
     .code h2{
