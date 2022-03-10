@@ -160,6 +160,9 @@ footer {
 .footer {
   margin-top: 30vh;
 }
+.nav{
+    background-color: black;
+}
 
 .list {
   margin-right: 3vw;
