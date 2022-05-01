@@ -1,134 +1,140 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>KWIT Symposium</title>
-    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet" />
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet" />
     <link href="index.css" rel="stylesheet" />
     <link rel="stylesheet" href="landing.css">
+
 </head>
 
 <body>
     <!-- Hero section  -->
+
     <header>
 
-        <ul class="nav fixed top-0 text-left w-full">
-            <li class="list"><a href="./index.html" >Home</a></li>
-            <li class="list"><a href="./teams.html" >Team</a></li>
-        </ul>
+        <nav class="bg-green border-gray-200 px-0 sm:px-4 py-1 rounded dark:bg-gray-800">
+            <div class="container flex flex-wrap justify-between items-center mx-auto">
+                <a href="#" class="flex items-center">
+                    <img src="images/logo1.png" class="logo" alt=" Logo">
+                </a>
+                <!-- <button data-collapse-toggle="mobile-menu" type="button"
+                    class="inline-flex items-center p-2 ml-3 text-sm text-white rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+                    aria-controls="mobile-menu" aria-expanded="false">
+                    <span class="sr-only">Open main menu</span>
+                    <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd"
+                            d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+                            clip-rule="evenodd"></path>
+                    </svg>
+                    <svg class="hidden w-6 h-6" fill="currentColor" viewBox="0 0 20 20"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd"
+                            d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+                            clip-rule="evenodd"></path>
+                    </svg>
+                </button>
+                <div class="hidden w-full md:block md:w-auto" id="mobile-menu">
+                    <ul class="flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-xl md:font-medium">
+                        <li>
+                            <a href="#"
+                                class="block py-2 pr-4 pl-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:py-9 dark:text-white"
+                                aria-current="page">Home</a>
+                        </li>
+                        <li>
+                            <a href="#about"
+                                class="block py-2 pr-4 pl-3 text-white border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:py-9 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">About</a>
+                        </li>
 
-        <div class="column">
-
-
-            <img src="images/logo1.png" class="logo">
-            <div class="row">
-
-                <div class="header-c">
-                    <b>
-                        <h2>KERALA WOMEN IN TECH </h2>
-                        <h1>SYMPOSIUM</h1>
-                    </b>
-                </div>
-                <div class="code">
-                    <h2>#it starts with us!</h2>
-                </div>
+                    </ul>
+                </div> -->
             </div>
+        </nav>
 
 
+        <div class="header-c mt-8">
+            <b>
+                <h2>KERALA<br />WOMEN IN TECH </h2>
+                <br />
+                <h1 class="mt-9">SYMPOSIUM</h1>
+            </b>
+        </div>
+        <div class="code">
+            <br />
+            <br />
+            <h2>#it starts with us!</h2>
         </div>
 
+
     </header>
+
     <!-- Content  -->
     <div class="content">
-        <div class="container mx-auto pb-5">
-            <div class="grid grid-cols-12">
-                <div class="hidden md:block col-span-4 mt-8">
-                    <div class="borderFluor">
-                        <div class="image rounded"></div>
-                    </div>
-                </div>
-                <div class="col-span-10 col-start-2 md:col-span-7 md:col-start-6 mt-8">
-                    <div class="rowOne">
-                        <h1 class="text-4xl  pt-4">What?</h1>
-                        <p class="mt-4 mb-7">
-                            The Women in Tech Symposium is a signature event that fosters
-                            women's interest in technology and introduces them to the
-                            wonder of innovation in our daily lives. This
-                            is the first three-day all-Kerala summit organized by the
-                            Tinkerhub WIT collective and is open to all women.
-                            We create impact through
-                            action, to build and set women up for success.
-                            <br />
-                            <br /> Because when women rise, we all rise.
-                            <br />
-                            <br />
-                            <br />
-                        </p>
-                    </div>
-                    <div>
+        <div class="container ">
+            <div class="about grid grid-cols-12">
+                <div id="about" class="col-span-10 col-start-2 md:col-span-8 md:col-start-4">
+                    <h1 class="text-4xl">ABOUT</h1>
+                    <p>The Women in Tech Symposium is a signature event that fosters
+                        women's interest in technology and introduces them to the
+                        wonder of innovation in our daily lives. This
+                        is the first three-day all-Kerala summit organized by the
+                        Tinkerhub WIT collective and is open to all women.
+                        We create impact through
+                        action, to build and set women up for success.
                         <br />
-                        <h1 class="text-4xl  ">Why?</h1>
-                        <p class="mt-4 pr-5">
-                            The core objective is to bring women from all across Kerala together to learn, network,
-                            and be inspired.
-                            We aim to provide opportunities for women from all walks of life to attend the tech
-                            conference through this programme.
-                            <br><br>We believe that this would be a stepping stone to helping them break the societal
-                            and gender barrier and dream high. </br>
-                            </br> </br>
-
-
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <hr class="mt-8" />
-            <div class="grid grid-cols-12 theme ml-5 md:ml-0">
-                <div class="col-span-11  md:col-span-12 md:col-start-1 text-left">
-
-                    <h3>OUR THEME</h3>
-                </div>
-                <div class="col-span-12 ">
-                    <h1 class="text-4xl  text-left">
-                        Breaking The Curse of Perfection
-                    </h1>
-                    <p class="mt-8 p-0">
-                        The loss of self-confidence
-                        that comes with falling short of perfectionist expectations can push girls into
-                        a deep fear of failure preventing them from trying new things or taking risksLet's put an end to
-                        the perfectionist's curse. We never put pressure on you to
-                        achieve perfection; instead, here you can
-                        share anything, and seek mentorship.
-                        <br /><br /> We are here for you, and we accept you exactly the way you
-                        are.
+                        <br /> Because when women rise, we all rise.
+                        <br />
+                        <br />
+                        <br />
                     </p>
                 </div>
             </div>
-            <hr class="w-1/2 ml-5 md:ml-0 " />
-            <div class="tinkerhub grid grid-cols-12 ">
-                <div class="borderFluor col-span-10 col-start-2 md:col-span-12 md:col-start-1 mb-8">
-                    <div class="tinkerbg w-full ">.</div>
 
+            <div class="why grid grid-cols-12">
+                <div class="col-span-10 col-start-2 md:col-span-4 md:col-start-2">
+                    <div><img src="images/3rd pg pic.png" alt="Image"></div>
                 </div>
+                <div class="col-span-10 col-start-2 md:col-span-6 md:col-start-7">
+                    <h1 class="text-4xl">WHY?</h1>
+                    <p class="mt-4 pr-5">
+                        The core objective is to bring women from all across Kerala together to learn, network,
+                        and be inspired.
+                        We aim to provide opportunities for women from all walks of life to attend the tech
+                        conference through this programme.
+                        <br><br>We believe that this would be a stepping stone to helping them break the societal
+                        and gender barrier and dream high. </br>
+                        </br> </br>
 
 
+                    </p>
+                </div>
+            </div>
 
-                <div class="content1 col-span-10 col-start-2 md:col-span-12 md:col-start-1 mt-8">
-                    <h1 class="text-4xl  text-left">Tinkerhub? Who that?</h1>
 
+            <div class="thub grid grid-cols-12">
+                <div class="col-span-10 col-start-2 md:col-span-8 md:col-start-4">
+                    <h1 class="text-4xl">About Tinkerhub</h1>
                     <p class="mt-8 ">The TinkerHub Foundation is a non-profit organization working towards creating
                         quality technology
                         talent in university and college campuses. It is a registered non-profit society working out of
                         the State of Kerala, with its activities focussed on (but not limited to) campuses of
                         professional colleges.</p>
                 </div>
-                <div class="content2 col-span-10 col-start-2 md:col-span-12 md:col-start-1 mt-8">
-                    <h1 class="text-4xl  text-left">So Tinkerhub Women in Tech is..</h1>
+            </div>
 
+            <div class="thwit grid grid-cols-12 w-full">
+                <div class="col-span-10 col-start-2 md:col-span-8 md:col-start-4">
+                    <h1 class="text-4xl">So Tinkerhub Women in Tech is..</h1>
+                    
                     <p class="mt-8">Tinkerhub Women in Tech is a wing of TinkerHub Community dedicated to assisting
                         women in embracing technology and bridging the gender gap. We were established in 2020 and began
                         actively working from May 2021. Tinkerhub WIT is present on 60 campuses across Kerala, assisting
@@ -137,18 +143,19 @@
                     </p>
                 </div>
             </div>
-            <div class="coming_sn grid grid-cols-12">
-                <h2 class="col-span-10 col-start-2 md:col-span-10 md:col-start-2">Get Ready For Some Exciting Events!
-                </h2>
-                <h3 class="col-span-10 col-start-2 md:col-span-10 md:col-start-2">Pre-Events Coming Soon!</h3>
-                <h3 class="col-span-10 col-start-2 md:col-span-10 md:col-start-2">Scholarship Registrations Opening
-                    Soon...</h3>
 
+
+            <div class="getReady ">
+               
+                   <div > Get Ready For Some Exciting Events!</div>
+              
             </div>
-            <div class="footer">
+
+            <div class="footer py-3 pl-5">
                 <footer>Copyright 2022 &copy; TinkerHub Foundation</footer>
             </div>
         </div>
+    </div>
 </body>
 
 </html>

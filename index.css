@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat+Subrayada:wght@400;700&family=Montserrat:wght@300;700&display=swap");
+
 * {
   padding: 0px;
   margin: 0px;
@@ -8,160 +9,94 @@
   background-color: black;
   font-family: "Montserrat", sans-serif;
   color: #c0c0c0;
-}
-.borderFluor {
-  border: 2px solid #fceabb;
-  padding: 7px;
-}
-.image {
-  background-image: url("images/conf.jpg");
-  background-repeat: no-repeat;
-  height: 90vh;
-}
 
-.rowOne {
-  border-right: 1px solid #fceabb;
-  border-top: 1px solid #fceabb;
-  padding-top: 5vh;
-  padding-right: 5vh;
-}
-
-.content hr {
-  background-color: #fceabb;
-  color: #fceabb;
-}
-
-.content p,
-.content1 p,
-.content2 p {
-  font-size: 1.1rem;
-}
-.content h1,
-.content1 h1,
-.content2 h1 {
-  font-weight: 900;
-  background: linear-gradient(
-    109.6deg,
-    rgba(156, 252, 248, 1) 11.2%,
-    rgba(110, 123, 251, 1) 91.1%
-  );
-  background-clip: text;
-
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.content h3 {
-  color: #8ddad5;
-}
-.theme {
-  padding: 9vh;
-  padding-top: 0%;
-  margin-top: 10vh;
-  border-left: 1px solid #fceabb;
-}
-
-.tinkerhub {
-  margin-top: 7vh;
-}
-.tinkerbg {
-  background-image: url("images/conf1.jpg");
-  background-repeat: no-repeat;
-  height: 50vh;
-
+  background-image: url("images/commbg.png");
   background-position: center;
-}
-.content1 {
-  padding: 9vh;
-  border-left: 1px solid #fceabb;
-  border-top: 1px solid #fceabb;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
-.content2 {
-  padding: 9vh;
 
-  border-right: 1px solid #fceabb;
-  border-bottom: 1px solid #fceabb;
-}
-
-.coming_sn {
-  background-color: #000000;
-  min-height: 100vh;
-  margin-top: 0vh;
-}
-
-.coming_sn h2 {
-  color: #9ae7fa;
-  text-align: center;
-  font-size: 8vh;
+.content h1 {
   font-weight: 900;
-  padding-top: 7%;
-  letter-spacing: 6px;
-  font-family: "Montserrat", sans-serif;
-  background-image: linear-gradient(to right, #00b09b, #96c93d);
+  background: linear-gradient(109.6deg,
+      rgba(156, 252, 248, 1) 11.2%,
+      rgba(110, 123, 251, 1) 91.1%);
   background-clip: text;
+
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
-.coming_sn h3 {
-  color: #ffffff;
-
-  font-family: "Montserrat", sans-serif;
-  font-size: 4vh;
-  margin-top: 6vh;
-  background: linear-gradient(
-    109.6deg,
-    rgba(156, 252, 248, 1) 11.2%,
-    rgba(110, 123, 251, 1) 91.1%
-  );
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  border: 2px solid #ffffff;
-  border-radius: 30px;
-  margin: auto 0;
-  /* margin-left: 15vw;
-      margin-right: 15vw; */
-  padding: 5vh;
+.why,
+.about,
+.thwit,
+.thub,
+.getReady {
+  min-height: 100vh;
 }
 
-.coming_sn h4 {
+.about h1,
+.thwit h1,
+.thub h1 {
+  padding-top: 15%;
+
+}
+
+.about p,
+.thwit p,
+.thub p {
+  margin-top: 10vh;
+  font-size: 1.5rem;
+  line-height: 50px;
+}
+
+.why h1 {
+  padding-top: 5%;
+}
+
+.why p {
+  margin-top: 7vh;
+  font-size: 1.4rem;
+  line-height: 50px;
+}
+
+.getReady {
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+  background-image: url("images/getReady.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+}
+
+.getReady div {
+  font-size: 5rem;
+
   text-align: center;
-  font-family: "Montserrat", sans-serif;
-  border: 2px solid #ffffff;
-  border-radius: 30px;
-
-  background: linear-gradient(
-    109.6deg,
-    rgba(156, 252, 248, 1) 11.2%,
-    rgba(110, 123, 251, 1) 91.1%
-  );
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-
-  padding: 1vh;
-  margin-top: 6vh;
-  font-size: 5vh;
+  color: white;
+  font-weight: 900;
+  line-height:100px;
+  padding-left: 15%;
+  padding-right: 15%;
 }
 
 footer {
-  text-align: center;
-  background: linear-gradient(
-    109.6deg,
-    rgba(156, 252, 248, 1) 11.2%,
-    rgba(110, 123, 251, 1) 91.1%
-  );
+  text-align: left;
+  background: linear-gradient(109.6deg,
+      rgba(156, 252, 248, 1) 11.2%,
+      rgba(110, 123, 251, 1) 91.1%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
-.footer {
-  margin-top: 30vh;
-}
-.nav{
-    background-color: black;
+.nav {
+  background-color: black;
 }
 
 .list {
@@ -189,22 +124,31 @@ ul {
   justify-content: center;
 }
 
-@media only screen and (max-width: 600px) {
-  .coming_sn h2 {
-    font-size: 9vw;
+@media only screen and (max-width: 768px) {
+  .content {
+    background-image: url("images/mobbg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
   }
+  .about p,
+.thwit p,
+.thub p {
+  margin-top: 10vh;
+  font-size: 1rem;
+  line-height: 40px;
+}
+.why p{
+  font-size: 1rem;
+  line-height: 40px;
+}
+.why h1{
+  margin-top: 5vh;
+}
+.getReady div{
+  padding: 10px;
+  font-size: 3rem;
+}
 
-  .coming_sn h3 {
-    font-size: 7.5vw;
-  }
-
-  .coming_sn h4 {
-    margin: 10%;
-    width: 80vw;
-    font-size: 5vw;
-  }
-
-  .footer {
-    font-size: 4vw;
-  }
 }

@@ -10,8 +10,6 @@
 
 body{
     font-family: 'Montserrat', sans-serif;
-    background-color: black;
-    
     
 }
 
@@ -27,7 +25,8 @@ body, .column h1 ,.column h2, .column h4{
 
 header{
     min-height:100vh;
-    background-image: url("images/logo1.png"), linear-gradient(rgba(0, 0, 0, 0.92),rgba(1,1,0,0.92));
+    width:100vw;
+    background-image: url("images/mainbg.png"), linear-gradient(to right,rgba(31, 24, 84, 0.8),rgba(1,1,0,0.8));
     background-blend-mode: overlay;
     
     background-repeat: no-repeat;
@@ -36,25 +35,9 @@ header{
 }
 
 .logo {
-    width: 25%;
-    position: relative;
-    margin:0 auto;
+ width: 20%;
+  
     
-}
-
-.row{
-    display:flex;
-    align-items: center;
-    display: grid;
-    
-}
-.column{
-    display:block;
-    align-items: center;
-    padding-top: 0.5rem;
-    display: grid;
-    
-
 }
 
 
@@ -62,24 +45,24 @@ header{
   display: flex;
     padding-top: 0;
     text-align: center;
+    margin-top: 5vh;
     justify-content: center;
 
 }
-.header-c h2,h1{
-    font-size: 4rem;
-    font-weight: 700;
-    background-image: url("https://c.tenor.com/RvVdpseP4HUAAAAM/andrea-kids.gif");
-    /* background-image: url("https://c.tenor.com/qvhUUmJ4qtEAAAAS/fire-flames.gif"); */
-    background-size: cover;
-    background-clip: text;
-    background-position: center;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+.header-c h1, h2{
+    font-size: 3rem;
+    font-weight: 600;
+    color: white;
+ 
     
 }
 .header-c h1{
     font-weight: bolder;
+    font-weight: 800;
     font-size: 8rem;
+    margin-top: 5vh;
+    text-shadow: 2px 2px 5px white;
+    
 }
 
 
@@ -87,14 +70,11 @@ header{
     text-align: center;
     font-size: 2rem;
     letter-spacing: 3px;
-    margin-bottom: 10vh;
-    background-image: url("https://c.tenor.com/RvVdpseP4HUAAAAM/andrea-kids.gif");
-    /* background-image: url("https://c.tenor.com/qvhUUmJ4qtEAAAAS/fire-flames.gif"); */
-    background-size: cover;
-    background-clip: text;
-    background-position: center;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+    color: white;
+    margin-top: 15vh;
+
+   
+
 }
 
 
@@ -108,7 +88,10 @@ header{
        
         font-size: 3rem;
     }
-    
+    .header-c h2{
+        font-size: 2rem;
+
+    }
 
     header.toggle{
         left: 0;
@@ -117,8 +100,8 @@ header{
         padding: 0;
     }
     .logo {
-        margin-top: 15vh;
-        width: 50%;
+     
+        width: 30%;
     }
     .code h2{
         transform: none;
@@ -130,11 +113,4 @@ header{
 }
 
 
-
-
-
-
-
-
-    
-
+/* Sidebar  */
